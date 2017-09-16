@@ -45,5 +45,48 @@ a:hover {text-decoration: underline;}
 .google {margin: 0 auto;
 	display: block;
 	height: 92px;
-	width: 272px;
-}
+	width: 272px;}
+
+.searchbar {display: block;
+	padding: 5px 9px 16px 0;
+	z-index: 1;}
+
+.searchbar input {display: block;
+	z-index: 2;
+	margin: 0 auto;
+	padding: 0 20px;
+	line-height: 34px;
+	width: 459px;
+	height: 34px;
+	font-weight: 400;
+	border-radius: 0;
+	box-shadow: 0 2px 5px grey; }
+
+.searchbar input:hover {box-shadow: 0 2px 9px grey;}
+
+.button {text-align: center;
+	position: relative;
+	margin: 10px 0;}
+
+.button input {
+	box-shadow: none;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 13px;
+	background-color: rgb(248, 248, 248);
+	border: rgb(248, 248, 248);
+	color: rgb(100, 100, 100);
+	outline: none;
+	font-family: DejaVu Sans;
+	}
+
+.button input[name=search] {width: 152px;
+	height: 36px;}
+
+.button input[name=lucky] {width: 171px;
+	height: 36px;}
+
+.button input:hover {color: black;
+	border: 1px solid #a3a3a3;
+	box-shadow: none;}
