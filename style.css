@@ -1,21 +1,38 @@
-body {font-family: Helvetica;
+body {font-family: arial sans-serif;
 	margin: 0;
 	padding: 0;
+	font-size: 13px;
 }
 
 li {display: inline-block;
 	
 }
 
-.header {float: right;}
+a {color: #878686;
+	text-decoration: none;
+}
 
-#signin input[type=submit]{display: inline-block;
-	width: 71px;
-	height: 25px;
+a:hover {text-decoration: underline;}
+
+.header {float: right;
+	text-align: center;
+	word-spacing: 0.7em;
+	margin: 4px;
+}
+
+.app {position: relative;
+	top: 6px;
+	margin: 4px;
+}
+
+#signin input[type=submit]{width: 75px;
+	height: 30px;
+	padding: 12px;
+	font-weight: 700;
 	color: white;
-	border: 1px solid black;
-	border-radius: 4px;
+	border: 1px solid #4387fd;
+	border-radius: 3px;
 	outline: none;
-	font-size: bold;
 	background-color: #4387fd;
+	position: relative;
 }
